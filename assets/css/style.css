@@ -1,0 +1,62 @@
+.create-account {
+    
+
+    position: absolute;
+    width: 1440px;
+    height: 806.99px;
+    top: 1546px;
+    left: 0px; 
+    background: #FFFFFF;
+}
+
+.phone {
+    position: absolute;
+    left: 245px;
+}
+
+.info {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-end;
+padding: 0px;
+
+position: absolute;
+width: 568px;
+height: 280px;
+left: 800px;
+top: 280px;
+
+}
+
+a {
+
+text-decoration: none;
+font-family: sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 36px;
+color: #FA4A0C;
+}
+
+.p1 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    color: #252B42;
+}
+
+.p2 {
+margin-top: 0px;
+font-family: sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 38px;
+color: #737373;
+}
