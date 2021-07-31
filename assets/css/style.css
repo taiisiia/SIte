@@ -60,12 +60,6 @@ body {
   font-weight: 600;
 }
 
-.header-p2 {
-  margin-bottom: 3rem;
-  font-size: 25px;
-  font-weight: 500;
-}
-
 .header-h {
   text-align: center;
   margin: 0 100px 70px 100px;
@@ -117,12 +111,15 @@ body {
   text-align: center;
 }
 
-.hr-line {
+.hr-line, .hr-line1 {
   max-width: 70%;
   margin: 20px auto;
   border-color: #e4e4e4;
 }
 
+.hr-line1 {
+  display: none;
+}
 .main-header {
   font-size: 44px;
   text-align: center;
@@ -206,19 +203,31 @@ a {
   flex-direction: column;
   align-items: center;
 
+  padding: 150px;
+
   background-color: #737373;
   background-image: url(../images/bg2.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  
 
   color: #ffffff;
   width: 100%;
   height: 100%;
 }
-.header-p3 {
+
+.footer-p2, .footer-p3 {
+  margin-bottom: 3rem;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.footer-p3 {
   display: none;
 }
+
 .logo-socials-area {
   display: flex;
   justify-content: space-around;
@@ -231,6 +240,10 @@ a {
 
 .logo-footer {
   margin-left: 80px;
+}
+
+.p-footer1 {
+  display: none;
 }
 
 @media screen and (max-width: 500px) and (max-height: 800px) {
@@ -293,6 +306,9 @@ a {
   }
 
   .hr-line {
+    display: none;
+  }
+  .hr-line1 {
     max-width: 100%;
     margin-top: 5%;
   }
@@ -308,7 +324,7 @@ a {
 
   .info {
     text-align: center;
-    margin-bottom: -30%;
+    margin-bottom: -20%;
   }
 
   .variaties {
@@ -346,7 +362,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-
+    padding: 0;
     background-image: none;
     background-color: #252b42;
   }
@@ -355,9 +371,7 @@ a {
     display: none;
   }
 
-  .header-p3 {
-    color: white;
-  }
+ 
 
   /*Media buttons-footer*/
 
@@ -372,7 +386,23 @@ a {
     padding: 20px;
   }
 
- 
+  .logo-footer {
+    display: none;
+  }
+
+  .logo-socials-area {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .p-footer {
+    display: none;
+  }
+
+  .footer-p2 {
+    display: none;
+  }
 
   /*.create-account,
     .variaties {
